@@ -1,3 +1,4 @@
+
 # MoviesAPI
 
 #Requirements
@@ -6,8 +7,10 @@
 
 # Installation
 
-Change the connectionstring in config.json file to use your sql server. 
-    "MoviesConnectionString": "server=(localdb)\\ProjectsV13;Database=MoviesDb;Integrated Security=true;MultipleActiveResultSets=true;"
+Change the connectionstring in config.json file to use your sql server:
 
->dotnet ef database update
->dotnet run
+> "MoviesConnectionString": "server=(localdb)\\ProjectsV13;Database=MoviesDb;Integrated Security=true;MultipleActiveResultSets=true;"
+
+> dotnet ef database update
+
+> dotnet run
