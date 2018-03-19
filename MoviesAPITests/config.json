@@ -1,0 +1,12 @@
+﻿{
+  "DisableSSL": false,
+  "ConnectionStrings": {
+    "MoviesConnectionString": "server=(localdb)\\ProjectsV13;Database=MoviesDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  }
+}
